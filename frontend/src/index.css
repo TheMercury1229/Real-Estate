@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    background: rgba(198, 205, 205, 0.501);
+    font-family: "Outfit", sans-serif;
+
+}
+input,
+textarea{
+    outline: none;
+}
+/*disabling plus and minus buttons of input type number */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+ display: none;
+}
