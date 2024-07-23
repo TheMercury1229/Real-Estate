@@ -48,7 +48,7 @@ const Contact = ({ listing }) => {
           ></textarea>
           <Link
             to={`mailto:${landlord.email}?subject=Regarding${listing.name}&body=${message}`}
-            className="bg-yellow-800 text-white text-center max-w-[500px]  p-3 uppercase rounded-lg hover:opacity-95"
+            className="bg-slate-800 text-white text-center max-w-[500px]  p-3 uppercase rounded-lg hover:opacity-95"
           >
             Send Message
           </Link>
